@@ -1,0 +1,669 @@
+# Copyright (C) 2024 RedQ, Inc
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: Bulk Manager 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/bulk-manager\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-01-03T08:43:04+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.9.0\n"
+"X-Domain: bulk-manager\n"
+
+#. Plugin Name of the plugin
+#: includes/Admin/Menu.php:29
+msgid "Bulk Manager"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://redq.io"
+msgstr ""
+
+#. Description of the plugin
+msgid "An easier way to update/delete your pages/posts content, excerpt, categories, tags, taxonomies, author and media at once."
+msgstr ""
+
+#. Author of the plugin
+msgid "RedQ, Inc"
+msgstr ""
+
+#: includes/Admin/Menu.php:29
+msgid "Bulk Manager Dashboard"
+msgstr ""
+
+#: includes/Admin/Menu.php:30
+msgid "Settings"
+msgstr ""
+
+#: includes/Admin/Settings.php:61
+#: includes/Admin/Settings/Posts.php:25
+#: includes/Admin/Settings/Woocommerce.php:25
+msgid "Save changes"
+msgstr ""
+
+#: includes/Admin/Settings.php:503
+msgid "The settings of this image size have been disabled because its values are being overwritten by a filter."
+msgstr ""
+
+#: includes/Admin/Settings.php:513
+msgid "px"
+msgstr ""
+
+#: includes/Admin/Settings.php:515
+msgid "Hard crop?"
+msgstr ""
+
+#: includes/Admin/Settings.php:546
+msgid "Select a page&hellip;"
+msgstr ""
+
+#. translators: 1: page name 2: page ID
+#: includes/Admin/Settings.php:560
+msgid "%1$s (ID: %2$s)"
+msgstr ""
+
+#: includes/Admin/Settings.php:577
+msgid "Search for a page&hellip;"
+msgstr ""
+
+#: includes/Admin/Settings.php:596
+#: includes/functions.php:267
+msgid "Day(s)"
+msgstr ""
+
+#: includes/Admin/Settings.php:597
+#: includes/functions.php:268
+msgid "Week(s)"
+msgstr ""
+
+#: includes/Admin/Settings.php:598
+#: includes/functions.php:269
+msgid "Month(s)"
+msgstr ""
+
+#: includes/Admin/Settings.php:599
+#: includes/functions.php:270
+msgid "Year(s)"
+msgstr ""
+
+#: includes/Admin/Settings/Posts.php:14
+msgid "Posts Types"
+msgstr ""
+
+#: includes/Admin/Settings/Posts.php:25
+#: includes/Admin/Settings/Woocommerce.php:25
+msgid "Update Post"
+msgstr ""
+
+#: includes/Admin/Settings/Posts.php:36
+msgid "Post Types"
+msgstr ""
+
+#: includes/Admin/Settings/Posts.php:38
+#: includes/Admin/Settings/Taxonomies.php:38
+#: includes/Admin/Settings/Woocommerce.php:38
+msgid "Available all post types with custom post type."
+msgstr ""
+
+#: includes/Admin/Settings/Posts.php:42
+#: includes/Admin/Settings/Taxonomies.php:42
+msgid "Post Type"
+msgstr ""
+
+#: includes/Admin/Settings/Posts.php:43
+#: includes/Admin/Settings/Taxonomies.php:43
+msgid "Select post type for which one you need action."
+msgstr ""
+
+#: includes/Admin/Settings/Posts.php:53
+#: includes/functions.php:316
+msgid "Post"
+msgstr ""
+
+#: includes/Admin/Settings/Posts.php:54
+msgid "Select a specific or multiple post to update/delete."
+msgstr ""
+
+#: includes/Admin/Settings/Posts.php:63
+#: includes/Admin/Settings/Taxonomies.php:99
+#: includes/Admin/Settings/Woocommerce.php:91
+msgid "Action"
+msgstr ""
+
+#: includes/Admin/Settings/Posts.php:64
+#: includes/Admin/Settings/Taxonomies.php:100
+#: includes/Admin/Settings/Woocommerce.php:92
+msgid "Select action which one you want to perform."
+msgstr ""
+
+#: includes/Admin/Settings/Posts.php:73
+#: includes/Admin/Settings/Taxonomies.php:109
+#: includes/Admin/Settings/Woocommerce.php:101
+msgid "Update Content"
+msgstr ""
+
+#: includes/Admin/Settings/Posts.php:74
+#: includes/Admin/Settings/Taxonomies.php:110
+msgid "Update Excerpt"
+msgstr ""
+
+#: includes/Admin/Settings/Posts.php:75
+#: includes/Admin/Settings/Taxonomies.php:111
+#: includes/Admin/Settings/Woocommerce.php:103
+msgid "Update Author"
+msgstr ""
+
+#: includes/Admin/Settings/Posts.php:76
+#: includes/Admin/Settings/Taxonomies.php:112
+#: includes/Admin/Settings/Woocommerce.php:104
+msgid "Update Featured Image"
+msgstr ""
+
+#: includes/Admin/Settings/Posts.php:77
+#: includes/Admin/Settings/Woocommerce.php:105
+msgid "Trash"
+msgstr ""
+
+#: includes/Admin/Settings/Posts.php:78
+#: includes/Admin/Settings/Taxonomies.php:114
+#: includes/Admin/Settings/Woocommerce.php:106
+msgid "Update Taxonomies"
+msgstr ""
+
+#: includes/Admin/Settings/Posts.php:79
+#: includes/Admin/Settings/Taxonomies.php:115
+#: includes/Admin/Settings/Woocommerce.php:107
+msgid "Update Status"
+msgstr ""
+
+#: includes/Admin/Settings/Posts.php:83
+#: includes/Admin/Settings/Taxonomies.php:119
+#: includes/Admin/Settings/Woocommerce.php:223
+msgid "Content"
+msgstr ""
+
+#: includes/Admin/Settings/Posts.php:84
+#: includes/Admin/Settings/Taxonomies.php:120
+#: includes/Admin/Settings/Woocommerce.php:224
+msgid "Write content which you want to update with the existing."
+msgstr ""
+
+#: includes/Admin/Settings/Posts.php:93
+#: includes/Admin/Settings/Taxonomies.php:129
+#: includes/Admin/Settings/Woocommerce.php:233
+msgid "Excerpt"
+msgstr ""
+
+#: includes/Admin/Settings/Posts.php:94
+#: includes/Admin/Settings/Taxonomies.php:130
+#: includes/Admin/Settings/Woocommerce.php:234
+msgid "Write excerpt text which you want to update with the existing."
+msgstr ""
+
+#: includes/Admin/Settings/Posts.php:103
+#: includes/Admin/Settings/Taxonomies.php:139
+#: includes/Admin/Settings/Woocommerce.php:243
+msgid "Author"
+msgstr ""
+
+#: includes/Admin/Settings/Posts.php:104
+#: includes/Admin/Settings/Taxonomies.php:140
+#: includes/Admin/Settings/Woocommerce.php:244
+msgid "Select author if you want to move posts from one author to another."
+msgstr ""
+
+#: includes/Admin/Settings/Posts.php:115
+#: includes/Admin/Settings/Taxonomies.php:14
+#: includes/Admin/Settings/Taxonomies.php:151
+#: includes/Admin/Settings/Woocommerce.php:255
+msgid "Taxonomies"
+msgstr ""
+
+#: includes/Admin/Settings/Posts.php:116
+#: includes/Admin/Settings/Taxonomies.php:152
+#: includes/Admin/Settings/Woocommerce.php:256
+msgid "Select taxonomies which you want to add/remove with/from post."
+msgstr ""
+
+#: includes/Admin/Settings/Posts.php:127
+#: includes/Admin/Settings/Taxonomies.php:64
+#: includes/Admin/Settings/Taxonomies.php:163
+#: includes/Admin/Settings/Woocommerce.php:71
+#: includes/Admin/Settings/Woocommerce.php:267
+msgid "Terms"
+msgstr ""
+
+#: includes/Admin/Settings/Posts.php:128
+#: includes/Admin/Settings/Taxonomies.php:164
+#: includes/Admin/Settings/Woocommerce.php:268
+msgid "Select terms which you want to add/remove with/from post."
+msgstr ""
+
+#: includes/Admin/Settings/Posts.php:139
+#: includes/Admin/Settings/Taxonomies.php:175
+#: includes/Admin/Settings/Woocommerce.php:279
+msgid "Status"
+msgstr ""
+
+#: includes/Admin/Settings/Posts.php:140
+#: includes/Admin/Settings/Taxonomies.php:176
+#: includes/Admin/Settings/Woocommerce.php:280
+msgid "Select status for post."
+msgstr ""
+
+#: includes/Admin/Settings/Posts.php:149
+#: includes/Admin/Settings/Taxonomies.php:185
+#: includes/Admin/Settings/Woocommerce.php:289
+msgid "Published"
+msgstr ""
+
+#: includes/Admin/Settings/Posts.php:150
+#: includes/Admin/Settings/Taxonomies.php:186
+#: includes/Admin/Settings/Woocommerce.php:290
+msgid "Draft"
+msgstr ""
+
+#: includes/Admin/Settings/Posts.php:151
+#: includes/Admin/Settings/Taxonomies.php:187
+#: includes/Admin/Settings/Woocommerce.php:291
+msgid "Pending"
+msgstr ""
+
+#: includes/Admin/Settings/Posts.php:152
+#: includes/Admin/Settings/Taxonomies.php:188
+#: includes/Admin/Settings/Woocommerce.php:292
+msgid "Scheduled"
+msgstr ""
+
+#: includes/Admin/Settings/Posts.php:156
+#: includes/Admin/Settings/Taxonomies.php:192
+#: includes/Admin/Settings/Woocommerce.php:296
+msgid "Scheduld Date"
+msgstr ""
+
+#: includes/Admin/Settings/Posts.php:160
+#: includes/Admin/Settings/Taxonomies.php:196
+#: includes/Admin/Settings/Woocommerce.php:300
+msgid "Datetime format is: 2023-12-25 17:40:00"
+msgstr ""
+
+#: includes/Admin/Settings/Posts.php:161
+#: includes/Admin/Settings/Taxonomies.php:197
+#: includes/Admin/Settings/Woocommerce.php:301
+msgid "Datetime format is:<br/> 2023-12-25 17:40:00"
+msgstr ""
+
+#: includes/Admin/Settings/Posts.php:164
+#: includes/Admin/Settings/Taxonomies.php:200
+#: includes/Admin/Settings/Woocommerce.php:304
+msgid "Upload Image"
+msgstr ""
+
+#: includes/Admin/Settings/Taxonomies.php:25
+msgid "Update Taxonomy/Term"
+msgstr ""
+
+#: includes/Admin/Settings/Taxonomies.php:36
+#: includes/Admin/Settings/Taxonomies.php:54
+#: includes/Admin/Settings/Taxonomies.php:94
+#: includes/Admin/Settings/Woocommerce.php:54
+#: includes/Admin/Settings/Woocommerce.php:58
+msgid "Taxonomy"
+msgstr ""
+
+#: includes/Admin/Settings/Taxonomies.php:55
+msgid "Select taxonomy for which one you need action."
+msgstr ""
+
+#: includes/Admin/Settings/Taxonomies.php:65
+msgid "Select terms for which one you need action."
+msgstr ""
+
+#: includes/Admin/Settings/Taxonomies.php:74
+#: includes/Admin/Settings/Taxonomies.php:95
+msgid "Posts"
+msgstr ""
+
+#: includes/Admin/Settings/Taxonomies.php:75
+#: includes/Admin/Settings/Woocommerce.php:59
+#: includes/Admin/Settings/Woocommerce.php:72
+#: includes/Admin/Settings/Woocommerce.php:82
+msgid "Select a specific or multiple product to update/delete."
+msgstr ""
+
+#: includes/Admin/Settings/Taxonomies.php:84
+msgid "Action For"
+msgstr ""
+
+#: includes/Admin/Settings/Taxonomies.php:85
+msgid "Take action for term/taxonomy or posts by term/taxonomy"
+msgstr ""
+
+#: includes/Admin/Settings/Taxonomies.php:93
+msgid "Term"
+msgstr ""
+
+#: includes/Admin/Settings/Taxonomies.php:113
+msgid "Delete"
+msgstr ""
+
+#: includes/Admin/Settings/Taxonomies.php:208
+#: includes/Admin/Settings/Taxonomies.php:251
+msgid "Action Type"
+msgstr ""
+
+#: includes/Admin/Settings/Taxonomies.php:209
+msgid "Select action type for Taxonomy."
+msgstr ""
+
+#: includes/Admin/Settings/Taxonomies.php:218
+msgid "Add Taxonomy"
+msgstr ""
+
+#: includes/Admin/Settings/Taxonomies.php:219
+msgid "Edit Taxonomy"
+msgstr ""
+
+#: includes/Admin/Settings/Taxonomies.php:220
+msgid "Delete Taxonomy"
+msgstr ""
+
+#: includes/Admin/Settings/Taxonomies.php:224
+msgid "Singular Label"
+msgstr ""
+
+#: includes/Admin/Settings/Taxonomies.php:225
+msgid "Singular label for taxonomy."
+msgstr ""
+
+#: includes/Admin/Settings/Taxonomies.php:233
+msgid "Plural Label"
+msgstr ""
+
+#: includes/Admin/Settings/Taxonomies.php:234
+msgid "Plural label for taxonomy."
+msgstr ""
+
+#: includes/Admin/Settings/Taxonomies.php:242
+#: includes/Admin/Settings/Taxonomies.php:277
+msgid "Slug"
+msgstr ""
+
+#: includes/Admin/Settings/Taxonomies.php:243
+msgid "This is taxonomy slug"
+msgstr ""
+
+#: includes/Admin/Settings/Taxonomies.php:252
+msgid "Select action type for action."
+msgstr ""
+
+#: includes/Admin/Settings/Taxonomies.php:261
+msgid "Add Term"
+msgstr ""
+
+#: includes/Admin/Settings/Taxonomies.php:262
+msgid "Edit Term"
+msgstr ""
+
+#: includes/Admin/Settings/Taxonomies.php:263
+msgid "Delete Term"
+msgstr ""
+
+#: includes/Admin/Settings/Taxonomies.php:267
+msgid "Name"
+msgstr ""
+
+#: includes/Admin/Settings/Taxonomies.php:268
+msgid "Give a name for term."
+msgstr ""
+
+#: includes/Admin/Settings/Taxonomies.php:278
+msgid "Give a slug for term."
+msgstr ""
+
+#: includes/Admin/Settings/Taxonomies.php:287
+msgid "Description"
+msgstr ""
+
+#: includes/Admin/Settings/Taxonomies.php:288
+msgid "Write description for term."
+msgstr ""
+
+#: includes/Admin/Settings/Woocommerce.php:14
+msgid "WooCommerce"
+msgstr ""
+
+#: includes/Admin/Settings/Woocommerce.php:36
+msgid "WooCommerce Settings"
+msgstr ""
+
+#: includes/Admin/Settings/Woocommerce.php:42
+msgid "Type"
+msgstr ""
+
+#: includes/Admin/Settings/Woocommerce.php:43
+msgid "Select type for which one you need action."
+msgstr ""
+
+#: includes/Admin/Settings/Woocommerce.php:53
+#: includes/Admin/Settings/Woocommerce.php:81
+msgid "Products"
+msgstr ""
+
+#: includes/Admin/Settings/Woocommerce.php:66
+msgid "Product Category"
+msgstr ""
+
+#: includes/Admin/Settings/Woocommerce.php:67
+msgid "Product Tags"
+msgstr ""
+
+#: includes/Admin/Settings/Woocommerce.php:102
+msgid "Update Short Description"
+msgstr ""
+
+#: includes/Admin/Settings/Woocommerce.php:108
+msgid "Update Sale Price"
+msgstr ""
+
+#: includes/Admin/Settings/Woocommerce.php:109
+msgid "Update Regular Price"
+msgstr ""
+
+#: includes/Admin/Settings/Woocommerce.php:110
+msgid "Update Stock Quantity"
+msgstr ""
+
+#: includes/Admin/Settings/Woocommerce.php:111
+msgid "Update Upsells"
+msgstr ""
+
+#: includes/Admin/Settings/Woocommerce.php:112
+msgid "Update Cross Sells"
+msgstr ""
+
+#: includes/Admin/Settings/Woocommerce.php:113
+msgid "Update Stock Status"
+msgstr ""
+
+#: includes/Admin/Settings/Woocommerce.php:114
+msgid "Update Weight"
+msgstr ""
+
+#: includes/Admin/Settings/Woocommerce.php:115
+msgid "Update Backorders"
+msgstr ""
+
+#: includes/Admin/Settings/Woocommerce.php:116
+msgid "Update SKU"
+msgstr ""
+
+#: includes/Admin/Settings/Woocommerce.php:117
+msgid "Update Product Gallery"
+msgstr ""
+
+#: includes/Admin/Settings/Woocommerce.php:121
+msgid "Backorders"
+msgstr ""
+
+#: includes/Admin/Settings/Woocommerce.php:122
+msgid "If managing stock, this controls whether or not backorders are allowed. If enabled, stock quantity can go below 0."
+msgstr ""
+
+#: includes/Admin/Settings/Woocommerce.php:131
+msgid "Do not allow"
+msgstr ""
+
+#: includes/Admin/Settings/Woocommerce.php:132
+msgid "Allow, but notify customer"
+msgstr ""
+
+#: includes/Admin/Settings/Woocommerce.php:133
+msgid "Allow"
+msgstr ""
+
+#: includes/Admin/Settings/Woocommerce.php:137
+msgid "SKU"
+msgstr ""
+
+#: includes/Admin/Settings/Woocommerce.php:138
+msgid "SKU refers to a Stock-keeping unit, a unique identifier for each distinct product and service that can be purchased."
+msgstr ""
+
+#: includes/Admin/Settings/Woocommerce.php:139
+msgid "Remeber, SKU can not be update in bulk."
+msgstr ""
+
+#: includes/Admin/Settings/Woocommerce.php:147
+msgid "Stock Status"
+msgstr ""
+
+#: includes/Admin/Settings/Woocommerce.php:148
+msgid "Select stock status for product."
+msgstr ""
+
+#: includes/Admin/Settings/Woocommerce.php:157
+msgid "In stock"
+msgstr ""
+
+#: includes/Admin/Settings/Woocommerce.php:158
+msgid "Out of stock"
+msgstr ""
+
+#: includes/Admin/Settings/Woocommerce.php:159
+msgid "On backorder"
+msgstr ""
+
+#: includes/Admin/Settings/Woocommerce.php:163
+msgid "Weight"
+msgstr ""
+
+#: includes/Admin/Settings/Woocommerce.php:164
+msgid "Enter weight in decimal form."
+msgstr ""
+
+#: includes/Admin/Settings/Woocommerce.php:172
+msgid "Sale Price"
+msgstr ""
+
+#: includes/Admin/Settings/Woocommerce.php:173
+msgid "Enter sale price which you want to update with existing."
+msgstr ""
+
+#: includes/Admin/Settings/Woocommerce.php:181
+msgid "Regular Price"
+msgstr ""
+
+#: includes/Admin/Settings/Woocommerce.php:182
+msgid "Enter regular price which you want to update with existing."
+msgstr ""
+
+#: includes/Admin/Settings/Woocommerce.php:190
+msgid "Stock Quantity"
+msgstr ""
+
+#: includes/Admin/Settings/Woocommerce.php:191
+msgid "Enter stock quantity which you want to update with existing."
+msgstr ""
+
+#: includes/Admin/Settings/Woocommerce.php:199
+msgid "Upsells"
+msgstr ""
+
+#: includes/Admin/Settings/Woocommerce.php:200
+msgid "Select upsells product for the selected product."
+msgstr ""
+
+#: includes/Admin/Settings/Woocommerce.php:211
+msgid "Cross Sells"
+msgstr ""
+
+#: includes/Admin/Settings/Woocommerce.php:212
+msgid "Select cross sells product for the selected product."
+msgstr ""
+
+#: includes/Admin/Settings/Woocommerce.php:311
+msgid "Product Gallery Image"
+msgstr ""
+
+#: includes/Ajax.php:33
+#: includes/Ajax.php:66
+#: includes/Ajax.php:97
+#: includes/Ajax.php:124
+#: includes/Ajax.php:142
+#: includes/Ajax.php:177
+#: includes/Ajax.php:198
+#: includes/Ajax.php:225
+#: includes/Ajax.php:253
+#: includes/Ajax.php:284
+msgid "Nonce verification failed."
+msgstr ""
+
+#: includes/Ajax.php:39
+msgid "Select a post first."
+msgstr ""
+
+#: includes/Ajax.php:48
+#: includes/Ajax.php:206
+#: includes/Ajax.php:264
+msgid "Something went wrong while updating."
+msgstr ""
+
+#: includes/Ajax.php:53
+#: includes/Ajax.php:212
+#: includes/Ajax.php:270
+msgid "Successfully updated."
+msgstr ""
+
+#: includes/Ajax.php:158
+msgid "None"
+msgstr ""
+
+#: includes/Ajax.php:160
+msgid "All"
+msgstr ""
+
+#: includes/Ajax.php:236
+msgid "Something went wrong."
+msgstr ""
+
+#: includes/Assets.php:100
+msgid "Insert image"
+msgstr ""
+
+#: includes/Assets.php:101
+msgid "Set gallery image"
+msgstr ""
+
+#: includes/functions.php:317
+msgid "Page"
+msgstr ""
+
+#: includes/Generator.php:37
+msgid "Updated"
+msgstr ""
